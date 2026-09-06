@@ -33,18 +33,17 @@ const PRODUCTS = [
   ['Apple TV 4K','TV & Maison','électronique','/shop/buy-tv/apple-tv-4k'],
   ['HomePod mini','TV & Maison','électronique','/shop/buy-homepod/homepod-mini'],
   ['HomePod','TV & Maison','électronique','/shop/buy-homepod/homepod'],
-  // AirTag / Vision
   ['AirTag','AirTag','électronique','/shop/buy-airtag/airtag'],
   ['Apple Vision Pro','Apple Vision Pro','électronique','/shop/buy-vision']
 ].map(([name,category,type,path]) => ({name,category,type,path}));
 
+// Only markets with a genuine Apple Online Store are listed here.
 const MARKETS = [
   ['us','United States','https://www.apple.com/us/','USD','840','North America','🇺🇸'],
   ['ca','Canada','https://www.apple.com/ca/','CAD','124','North America','🇨🇦'],
   ['mx','Mexico','https://www.apple.com/mx/','MXN','484','North America','🇲🇽'],
   ['br','Brazil','https://www.apple.com/br/','BRL','076','South America','🇧🇷'],
   ['cl','Chile','https://www.apple.com/cl/','CLP','152','South America','🇨🇱'],
-  ['co','Colombia','https://www.apple.com/co/','COP','170','South America','🇨🇴'],
   ['de','Germany','https://www.apple.com/de/','EUR','276','Europe','🇩🇪'],
   ['fr','France','https://www.apple.com/fr/','EUR','250','Europe','🇫🇷'],
   ['ch','Switzerland','https://www.apple.com/ch-fr/','CHF','756','Europe','🇨🇭'],
@@ -52,7 +51,7 @@ const MARKETS = [
   ['es','Spain','https://www.apple.com/es/','EUR','724','Europe','🇪🇸'],
   ['pt','Portugal','https://www.apple.com/pt/','EUR','620','Europe','🇵🇹'],
   ['at','Austria','https://www.apple.com/at/','EUR','040','Europe','🇦🇹'],
-  ['be','Belgium','https://www.apple.com/be/','EUR','056','Europe','🇧🇪'],
+  ['be','Belgium','https://www.apple.com/be-fr/','EUR','056','Europe','🇧🇪'],
   ['nl','Netherlands','https://www.apple.com/nl/','EUR','528','Europe','🇳🇱'],
   ['lu','Luxembourg','https://www.apple.com/lu/','EUR','442','Europe','🇱🇺'],
   ['ie','Ireland','https://www.apple.com/ie/','EUR','372','Europe','🇮🇪'],
@@ -64,8 +63,6 @@ const MARKETS = [
   ['pl','Poland','https://www.apple.com/pl/','PLN','616','Europe','🇵🇱'],
   ['cz','Czech Republic','https://www.apple.com/cz/','CZK','203','Europe','🇨🇿'],
   ['hu','Hungary','https://www.apple.com/hu/','HUF','348','Europe','🇭🇺'],
-  ['ro','Romania','https://www.apple.com/ro/','RON','642','Europe','🇷🇴'],
-  ['gr','Greece','https://www.apple.com/gr/','EUR','300','Europe','🇬🇷'],
   ['tr','Türkiye','https://www.apple.com/tr/','TRY','792','Europe','🇹🇷'],
   ['jp','Japan','https://www.apple.com/jp/','JPY','392','Asia-Pacific','🇯🇵'],
   ['kr','South Korea','https://www.apple.com/kr/','KRW','410','Asia-Pacific','🇰🇷'],
@@ -78,10 +75,10 @@ const MARKETS = [
   ['in','India','https://www.apple.com/in/','INR','356','Asia-Pacific','🇮🇳'],
   ['au','Australia','https://www.apple.com/au/','AUD','036','Asia-Pacific','🇦🇺'],
   ['nz','New Zealand','https://www.apple.com/nz/','NZD','554','Asia-Pacific','🇳🇿'],
+  ['ph','Philippines','https://www.apple.com/ph/','PHP','608','Asia-Pacific','🇵🇭'],
+  ['vn','Vietnam','https://www.apple.com/vn/','VND','704','Asia-Pacific','🇻🇳'],
   ['ae','United Arab Emirates','https://www.apple.com/ae/','AED','784','Middle East','🇦🇪'],
-  ['sa','Saudi Arabia','https://www.apple.com/sa/','SAR','682','Middle East','🇸🇦'],
-  ['il','Israel','https://www.apple.com/il/','ILS','376','Middle East','🇮🇱'],
-  ['za','South Africa','https://www.apple.com/za/','ZAR','710','Africa','🇿🇦']
+  ['sa','Saudi Arabia','https://www.apple.com/sa/','SAR','682','Middle East','🇸🇦']
 ].map(([code,country,base,currency,isoNumeric,region,flag]) => ({code,country,base,currency,isoNumeric,region,flag}));
 
 const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
@@ -110,33 +107,63 @@ function price(html, currency) {
     CHF:'CHF|Fr\\.?',USD:'\\$',EUR:'€|EUR',GBP:'£|GBP',CAD:'CA\\$|CAD',AUD:'A\\$|AUD',JPY:'¥|JPY',CNY:'CN¥|RMB|CNY|¥',
     HKD:'HK\\$|HKD',SGD:'S\\$|SGD',KRW:'₩|KRW',INR:'₹|INR',MXN:'MX\\$|MXN',BRL:'R\\$|BRL',TRY:'₺|TRY',
     PLN:'zł|PLN',SEK:'kr|SEK',NOK:'kr|NOK',DKK:'kr|DKK',CZK:'Kč|CZK',HUF:'Ft|HUF',RON:'lei|RON',TWD:'NT\\$|TWD',
-    AED:'AED',SAR:'SAR',ILS:'₪|ILS',NZD:'NZ\\$|NZD',THB:'฿|THB',MYR:'RM|MYR',ZAR:'ZAR|R',CLP:'CLP|\\$',COP:'COP|\\$'
+    AED:'AED',SAR:'SAR',ILS:'₪|ILS',NZD:'NZ\\$|NZD',THB:'฿|THB',MYR:'RM|MYR',ZAR:'ZAR|R',CLP:'CLP|\\$',COP:'COP|\\$',
+    PHP:'₱|PHP',VND:'₫|đ|VND'
   }[currency] || currency;
 
-  // Prefer the exact "À partir de / From" price shown by Apple for the model.
-  const fromRe = new RegExp(`(?:À\\s*partir\\s*de|A\\s*partir\\s*de|From)\\s*(?:${currencyPattern})?\\s*([0-9][0-9., ]*)\\s*(?:${currencyPattern})?`, 'i');
+  // Apple frequently shows a cash price followed by a financing option such as
+  // "or 855,000đ/month". Never accept the monthly installment as the product price.
+  const monthly = /(?:\/|per\s+|a\s+|pro\s+|por\s+|w\s+|na\s+|miesięcznie|monat|mois|mes|meses|mån|måned|mês|miesiąc|miesiące|tháng|bulan|月|개월|เดือน|개월|month|months)\s*(?:month|months|mo\.?|mois|mes|mån|måned|mês|tháng|bulan|月|개월|เดือน)?/i;
+
+  // First, inspect Apple "From / À partir de / Indulóár / Từ / From" labels.
+  const lead = '(?:From|À\\s*partir\\s*de|A\\s*partir\\s*de|Indulóár:?|Từ|Da|A\\s*partire\\s*da|Ab|Vanaf|Fra|Från|Od|Od|De)';
+  const fromRe = new RegExp(`${lead}\\s*(?:${currencyPattern})?\\s*([0-9][0-9.,\\s]*)\\s*(?:${currencyPattern})?(?!\\s*(?:/|per|pro|por|a|month|months|mo\\.?|mois|mes|mån|måned|mês|tháng|bulan|月|개월|เดือน))`, 'i');
   const from = body.match(fromRe);
   if (from) { const n = parseNumber(from[1]); if (n) return n; }
 
-  // Then use structured product-price metadata.
+  // Structured price metadata is generally the cleanest source.
   const meta = /(?:itemprop=["']price["']|property=["']product:price:amount["']|name=["']price["'])[^>]*content=["']([^"']+)["']/gi;
-  for (const m of body.matchAll(meta)) { const n=parseNumber(m[1]); if(n) return n; }
+  for (const m of body.matchAll(meta)) {
+    const n=parseNumber(m[1]);
+    if(n) return n;
+  }
 
-  const re = new RegExp(`(?:${currencyPattern})\\s*[0-9][0-9., ]*|[0-9][0-9., ]*\\s*(?:${currencyPattern})`, 'gi');
-  for (const m of body.matchAll(re)) { const n=parseNumber(m[0]); if(n) return n; }
+  // Last resort: scan currency amounts, but reject anything explicitly tied to financing/monthly terms.
+  const re = new RegExp(`(?:${currencyPattern})\\s*[0-9][0-9.,\\s]*|[0-9][0-9.,\\s]*\\s*(?:${currencyPattern})`, 'gi');
+  for (const m of body.matchAll(re)) {
+    const start=Math.max(0,m.index-45), end=Math.min(body.length,m.index+m[0].length+45);
+    const context=body.slice(start,end);
+    if(monthly.test(context)) continue;
+    const n=parseNumber(m[0]);
+    if(n) return n;
+  }
   return null;
 }
 
+async function fetchProduct(market, product) {
+  // Some Apple markets use a language-specific storefront path (notably Belgium).
+  const bases = [market.base];
+  if (market.code === 'be') bases.push('https://www.apple.com/be-nl/');
+  if (market.code === 'ch') bases.push('https://www.apple.com/ch-de/');
+  for (const base of bases) {
+    const url=base.replace(/\/$/,'')+product.path;
+    try { return {html:await text(url),url}; } catch(error) {
+      if (!String(error.message).startsWith('404')) throw error;
+    }
+  }
+  throw new Error(`404 ${market.base}${product.path}`);
+}
+
 async function main() {
-  const out = {updatedAt:new Date().toISOString(),marketCount:MARKETS.length,productCount:PRODUCTS.length,source:'Apple storefronts — prix publics affichés par Apple',products:{}};
+  const out = {updatedAt:new Date().toISOString(),marketCount:MARKETS.length,productCount:PRODUCTS.length,source:'Apple Online Stores — prix publics affichés par Apple, hors mensualités',products:{}};
   for (const product of PRODUCTS) {
     const rows=[];
     for (const market of MARKETS) {
-      const url=market.base.replace(/\/$/,'')+product.path;
       try {
-        const html=await text(url);
+        const {html,url}=await fetchProduct(market,product);
         const value=price(html,market.currency);
         if(value) rows.push({...market,product:product.name,category:product.category,type:product.type,price:value,url});
+        else console.warn(`No price ${market.country} / ${product.name}`);
       } catch(error) {
         console.warn(`Skipping ${market.country} / ${product.name}: ${error.message}`);
       }
