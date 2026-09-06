@@ -9,9 +9,6 @@ const PRODUCTS = {
   'Apple Watch Series 11': '/shop/buy-watch/apple-watch-series-11'
 };
 
-// Apple storefronts use locale paths (for example /ch-fr/ and /de/),
-// not a simple /xx/ country URL. Keep the storefront registry explicit so
-// a change in Apple's country-selector HTML cannot make the database empty.
 const MARKETS = [
   ['us','United States','https://www.apple.com/us/','USD','840','North America','🇺🇸'],
   ['ca','Canada','https://www.apple.com/ca/','CAD','124','North America','🇨🇦'],
@@ -56,7 +53,7 @@ const MARKETS = [
   ['il','Israel','https://www.apple.com/il/','ILS','376','Middle East','🇮🇱'],
   ['tr','Türkiye','https://www.apple.com/tr/','TRY','792','Europe','🇹🇷'],
   ['za','South Africa','https://www.apple.com/za/','ZAR','710','Africa','🇿🇦']
-].map(([code,country,base,currency,isoNumeric,region,flag]) => ({code,country,base, currency,isoNumeric,region,flag}));
+].map(([code,country,base,currency,isoNumeric,region,flag]) => ({code,country,base,currency,isoNumeric,region,flag}));
 
 const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -72,11 +69,9 @@ async function text(url) {
   return r.text();
 }
 
-function parseNumber(raw, currency) {
+function parseNumber(raw) {
   const s = clean(raw).replace(/[^0-9.,-]/g, '');
   if (!s) return null;
-  // Most Apple storefronts use either 1,234.56 or 1.234,56. For integer
-  // currencies (JPY/KRW/CLP etc.) separators are thousands separators.
   let n;
   if (/,\d{2}$/.test(s) && /\./.test(s)) n = Number(s.replace(/\./g, '').replace(',', '.'));
   else if (/\.\d{2}$/.test(s) && /,/.test(s)) n = Number(s.replace(/,/g, ''));
@@ -92,17 +87,17 @@ function price(html, currency) {
   const priceClass = /class=["'][^"']*price[^"']*["'][^>]*>([^<]{1,80})</gi;
   for (const m of html.matchAll(priceClass)) values.push(m[1]);
   const symbol = {
-    CHF:'CHF',USD:'USD',EUR:'€|EUR',GBP:'£|GBP',JPY:'¥|JPY',CAD:'CAD|CA\\$',AUD:'A\\$|AUD',
-    SGD:'S\\$|SGD',HKD:'HK\\$|HKD',CNY:'CN¥|RMB|CNY|¥',INR:'₹|INR',KRW:'₩|KRW',TWD:'NT\\$|TWD',
-    MXN:'MX\\$|MXN',BRL:'R\\$|BRL',TRY:'₺|TRY',DKK:'kr|DKK',SEK:'kr|SEK',NOK:'kr|NOK',PLN:'zł|PLN',
-    CZK:'Kč|CZK',HUF:'Ft|HUF',RON:'lei|RON',THB:'฿|THB',MYR:'RM|MYR',NZD:'NZ\\$|NZD',AED:'AED',SAR:'SAR',
-    ILS:'₪|ILS',ZAR:'R|ZAR',CLP:'CLP|\\$',COP:'COP|\\$'
+    CHF:'CHF', USD:'USD', EUR:'€|EUR', GBP:'£|GBP', JPY:'¥|JPY', CAD:'CAD|CA\\$', AUD:'A\\$|AUD',
+    SGD:'S\\$|SGD', HKD:'HK\\$|HKD', CNY:'CN¥|RMB|CNY|¥', INR:'₹|INR', KRW:'₩|KRW', TWD:'NT\\$|TWD',
+    MXN:'MX\\$|MXN', BRL:'R\\$|BRL', TRY:'₺|TRY', DKK:'kr|DKK', SEK:'kr|SEK', NOK:'kr|NOK', PLN:'zł|PLN',
+    CZK:'Kč|CZK', HUF:'Ft|HUF', RON:'lei|RON', THB:'฿|THB', MYR:'RM|MYR', NZD:'NZ\\$|NZD', AED:'AED', SAR:'SAR',
+    ILS:'₪|ILS', ZAR:'R|ZAR', CLP:'CLP|\\$', COP:'COP|\\$'
   }[currency] || currency;
   const re = new RegExp(`(?:${symbol})\\s*[0-9][0-9.,]*|[0-9][0-9.,]*\\s*(?:${symbol})`, 'gi');
-  const body = html.replace(/<script[\\s\\S]*?<\\/script>/gi, ' ').replace(/<style[\\s\\S]*?<\\/style>/gi, ' ');
+  const body = html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ');
   for (const m of body.matchAll(re)) values.push(m[0]);
   for (const v of values) {
-    const n = parseNumber(v, currency);
+    const n = parseNumber(v);
     if (n !== null) return n;
   }
   return null;
