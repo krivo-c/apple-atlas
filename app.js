@@ -1,4 +1,4 @@
-const usdRates={USD:1,CHF:.80,EUR:.855,GBP:.74,CAD:1.38,AUD:1.52,JPY:147,CNY:7.12,HKD:7.80,SGD:1.28,KRW:1390,INR:88.2,MXN:18.7,BRL:5.42,TRY:41.2,PLN:3.64,SEK:9.45,NOK:10.05,DKK:6.38,AED:3.6725,SAR:3.75,NZD:1.69,THB:31.9,MYR:4.22,ZAR:17.7,CLP:963,COP:4010,CZK:20.9,HUF:337,RON:4.34,ILS:3.35,TWD:31.4};
+const usdRates={USD:1,CHF:.80,EUR:.855,GBP:.74,CAD:1.38,AUD:1.52,JPY:147,CNY:7.12,HKD:7.80,SGD:1.28,KRW:1390,INR:88.2,MXN:18.7,BRL:5.42,TRY:41.2,PLN:3.64,SEK:9.45,NOK:10.05,DKK:6.38,AED:3.6725,SAR:3.75,NZD:1.69,THB:31.9,MYR:4.22,ZAR:17.7,CLP:963,COP:4010,CZK:20.9,HUF:337,RON:4.34,ILS:3.35,TWD:31.4,PHP:57.2,VND:26350};
 let catalog={},liveRows=[],selectedMapCountry=null;
 const $=s=>document.querySelector(s),productSelect=$('#productSelect'),categorySelect=$('#categorySelect'),currencySelect=$('#currencySelect'),regionSelect=$('#regionSelect'),viewSelect=$('#viewSelect'),table=$('#priceTable'),stats=$('#stats');
 const money=(v,c)=>new Intl.NumberFormat('fr-CH',{style:'currency',currency:c,maximumFractionDigits:0}).format(v);
