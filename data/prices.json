@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T05:42:47.828Z",
+  "updatedAt": "2026-10-28T12:55:13.753Z",
   "marketCount": 43,
   "productCount": 28,
   "source": "Apple Online Stores — prix publics totaux, hors mensualités",
@@ -1644,6 +1644,20 @@
           "url": "https://www.apple.com/se/shop/buy-iphone/iphone-17e"
         },
         {
+          "code": "ch",
+          "country": "Switzerland",
+          "base": "https://www.apple.com/ch-fr/",
+          "currency": "CHF",
+          "isoNumeric": "756",
+          "region": "Europe",
+          "flag": "🇨🇭",
+          "product": "iPhone 17e",
+          "category": "iPhone",
+          "type": "électronique",
+          "price": 899.00256,
+          "url": "https://www.apple.com/ch-fr/shop/buy-iphone/iphone-17e"
+        },
+        {
           "code": "tr",
           "country": "Türkiye",
           "base": "https://www.apple.com/tr/",
@@ -1868,7 +1882,7 @@
           "url": "https://www.apple.com/sa/shop/buy-iphone/iphone-17e"
         }
       ],
-      "count": 37
+      "count": 38
     },
     "iPhone 16": {
       "category": "iPhone",
@@ -5064,7 +5078,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 2649,
+          "price": 2499,
           "url": "https://www.apple.com/ca/shop/buy-mac/studio-display"
         },
         {
@@ -5120,7 +5134,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1999,
+          "price": 2399,
           "url": "https://www.apple.com/at/shop/buy-mac/studio-display"
         },
         {
@@ -5134,7 +5148,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1699,
+          "price": 1999,
           "url": "https://www.apple.com/be-fr/shop/buy-mac/studio-display"
         },
         {
@@ -5148,7 +5162,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 52990,
+          "price": 49990,
           "url": "https://www.apple.com/cz/shop/buy-mac/studio-display"
         },
         {
@@ -5190,7 +5204,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1999,
+          "price": 1699,
           "url": "https://www.apple.com/fr/shop/buy-mac/studio-display"
         },
         {
@@ -5218,7 +5232,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 829990,
+          "price": 699990,
           "url": "https://www.apple.com/hu/shop/buy-mac/studio-display"
         },
         {
@@ -5246,7 +5260,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1699,
+          "price": 1999,
           "url": "https://www.apple.com/it/shop/buy-mac/studio-display"
         },
         {
@@ -5260,7 +5274,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1642.83,
+          "price": 1932.92,
           "url": "https://www.apple.com/lu/shop/buy-mac/studio-display"
         },
         {
@@ -5274,7 +5288,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1999,
+          "price": 1699,
           "url": "https://www.apple.com/nl/shop/buy-mac/studio-display"
         },
         {
@@ -5288,7 +5302,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 24990,
+          "price": 19990,
           "url": "https://www.apple.com/no/shop/buy-mac/studio-display"
         },
         {
@@ -5302,7 +5316,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 7499,
+          "price": 10499,
           "url": "https://www.apple.com/pl/shop/buy-mac/studio-display"
         },
         {
@@ -5330,7 +5344,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1999,
+          "price": 2099,
           "url": "https://www.apple.com/es/shop/buy-mac/studio-display"
         },
         {
@@ -5344,7 +5358,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 22995,
+          "price": 18995,
           "url": "https://www.apple.com/se/shop/buy-mac/studio-display"
         },
         {
@@ -5358,7 +5372,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1699,
+          "price": 1749,
           "url": "https://www.apple.com/ch-fr/shop/buy-mac/studio-display"
         },
         {
@@ -5372,7 +5386,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 99999,
+          "price": 144999,
           "url": "https://www.apple.com/tr/shop/buy-mac/studio-display"
         },
         {
@@ -5386,7 +5400,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 1499,
+          "price": 1799,
           "url": "https://www.apple.com/uk/shop/buy-mac/studio-display"
         },
         {
@@ -5442,7 +5456,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 12499,
+          "price": 17999,
           "url": "https://www.apple.com/hk/shop/buy-mac/studio-display"
         },
         {
@@ -5456,7 +5470,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 52900,
+          "price": 62900,
           "url": "https://www.apple.com/tw/shop/buy-mac/studio-display"
         },
         {
@@ -5498,7 +5512,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 52900,
+          "price": 62900,
           "url": "https://www.apple.com/th/shop/buy-mac/studio-display"
         },
         {
@@ -5540,7 +5554,7 @@
           "product": "Studio Display",
           "category": "Mac",
           "type": "électronique",
-          "price": 3999,
+          "price": 3299,
           "url": "https://www.apple.com/nz/shop/buy-mac/studio-display"
         },
         {
@@ -5604,7 +5618,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3199,
+          "price": 3299,
           "url": "https://www.apple.com/us/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5618,7 +5632,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 4349,
+          "price": 4899,
           "url": "https://www.apple.com/ca/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5632,7 +5646,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 70999,
+          "price": 76999,
           "url": "https://www.apple.com/mx/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5646,7 +5660,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 38999,
+          "price": 41999,
           "url": "https://www.apple.com/br/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5660,7 +5674,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3349990,
+          "price": 3699990,
           "url": "https://www.apple.com/cl/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5688,7 +5702,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3399,
+          "price": 3499,
           "url": "https://www.apple.com/be-fr/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5702,7 +5716,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 84990,
+          "price": 91990,
           "url": "https://www.apple.com/cz/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5730,7 +5744,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3199,
+          "price": 3499,
           "url": "https://www.apple.com/fi/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5744,7 +5758,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3799,
+          "price": 3099,
           "url": "https://www.apple.com/fr/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5758,7 +5772,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3799,
+          "price": 3099,
           "url": "https://www.apple.com/de/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5786,7 +5800,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3099,
+          "price": 3799,
           "url": "https://www.apple.com/ie/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5800,7 +5814,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3499,
+          "price": 3799,
           "url": "https://www.apple.com/it/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5814,7 +5828,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 2996.56,
+          "price": 3383.34,
           "url": "https://www.apple.com/lu/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5828,7 +5842,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3799,
+          "price": 3399,
           "url": "https://www.apple.com/nl/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5856,7 +5870,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 14599,
+          "price": 13299,
           "url": "https://www.apple.com/pl/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5870,7 +5884,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3399,
+          "price": 3799,
           "url": "https://www.apple.com/pt/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5884,7 +5898,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3099,
+          "price": 3799,
           "url": "https://www.apple.com/es/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5898,7 +5912,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 38995,
+          "price": 39995,
           "url": "https://www.apple.com/se/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5912,7 +5926,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 3199,
+          "price": 2849,
           "url": "https://www.apple.com/ch-fr/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5926,7 +5940,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 174999,
+          "price": 194999,
           "url": "https://www.apple.com/tr/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5968,7 +5982,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 5099000,
+          "price": 5699000,
           "url": "https://www.apple.com/kr/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -5996,7 +6010,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 27499,
+          "price": 24499,
           "url": "https://www.apple.com/hk/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -6010,7 +6024,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 97900,
+          "price": 109900,
           "url": "https://www.apple.com/tw/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -6038,7 +6052,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 13499,
+          "price": 14699,
           "url": "https://www.apple.com/my/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -6052,7 +6066,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 109900,
+          "price": 107900,
           "url": "https://www.apple.com/th/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -6094,7 +6108,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 6799,
+          "price": 6999,
           "url": "https://www.apple.com/nz/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -6108,7 +6122,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 214999,
+          "price": 219999,
           "url": "https://www.apple.com/ph/shop/buy-mac/studio-display-xdr"
         },
         {
@@ -6136,7 +6150,7 @@
           "product": "Studio Display XDR",
           "category": "Mac",
           "type": "électronique",
-          "price": 16399,
+          "price": 14699,
           "url": "https://www.apple.com/sa/shop/buy-mac/studio-display-xdr"
         }
       ],
@@ -6158,7 +6172,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2399,
+          "price": 1899,
           "url": "https://www.apple.com/us/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6172,7 +6186,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2259,
+          "price": 1979,
           "url": "https://www.apple.com/ca/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6186,7 +6200,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 52499,
+          "price": 59999,
           "url": "https://www.apple.com/mx/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6214,7 +6228,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2419990,
+          "price": 1819990,
           "url": "https://www.apple.com/cl/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6228,7 +6242,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 1549,
+          "price": 2779,
           "url": "https://www.apple.com/at/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6256,7 +6270,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 44990,
+          "price": 68990,
           "url": "https://www.apple.com/cz/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6270,7 +6284,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 19499,
+          "price": 22499,
           "url": "https://www.apple.com/dk/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6284,7 +6298,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2969,
+          "price": 2479,
           "url": "https://www.apple.com/fi/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6312,7 +6326,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2279,
+          "price": 2409,
           "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6326,7 +6340,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 749990,
+          "price": 649990,
           "url": "https://www.apple.com/hu/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6340,7 +6354,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2059,
+          "price": 1579,
           "url": "https://www.apple.com/ie/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6354,7 +6368,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 1819,
+          "price": 2049,
           "url": "https://www.apple.com/it/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6382,7 +6396,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2919,
+          "price": 1569,
           "url": "https://www.apple.com/nl/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6396,7 +6410,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 15990,
+          "price": 31390,
           "url": "https://www.apple.com/no/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6410,7 +6424,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 6999,
+          "price": 12499,
           "url": "https://www.apple.com/pl/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6424,7 +6438,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2439,
+          "price": 2679,
           "url": "https://www.apple.com/pt/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6438,7 +6452,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 1549,
+          "price": 1799,
           "url": "https://www.apple.com/es/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6452,7 +6466,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 30895,
+          "price": 35095,
           "url": "https://www.apple.com/se/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6466,7 +6480,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2049,
+          "price": 2249,
           "url": "https://www.apple.com/ch-fr/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6494,7 +6508,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 1999,
+          "price": 1399,
           "url": "https://www.apple.com/uk/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6508,7 +6522,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 349800,
+          "price": 439800,
           "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6522,7 +6536,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 3899000,
+          "price": 3219000,
           "url": "https://www.apple.com/kr/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6550,7 +6564,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 11099,
+          "price": 19899,
           "url": "https://www.apple.com/hk/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6564,7 +6578,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 81900,
+          "price": 46900,
           "url": "https://www.apple.com/tw/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6578,7 +6592,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 2999,
+          "price": 3149,
           "url": "https://www.apple.com/sg/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6592,7 +6606,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 10399,
+          "price": 9499,
           "url": "https://www.apple.com/my/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6606,7 +6620,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 49900,
+          "price": 87900,
           "url": "https://www.apple.com/th/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6634,7 +6648,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 4149,
+          "price": 2349,
           "url": "https://www.apple.com/au/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6648,7 +6662,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 4799,
+          "price": 4999,
           "url": "https://www.apple.com/nz/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6662,7 +6676,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 152990,
+          "price": 117990,
           "url": "https://www.apple.com/ph/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6690,7 +6704,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 6599,
+          "price": 8199,
           "url": "https://www.apple.com/ae/shop/buy-ipad/ipad-pro"
         },
         {
@@ -6704,7 +6718,7 @@
           "product": "iPad Pro",
           "category": "iPad",
           "type": "électronique",
-          "price": 10549,
+          "price": 6499,
           "url": "https://www.apple.com/sa/shop/buy-ipad/ipad-pro"
         }
       ],
@@ -6726,7 +6740,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 749,
+          "price": 1349,
           "url": "https://www.apple.com/us/shop/buy-ipad/ipad-air"
         },
         {
@@ -6740,7 +6754,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1349,
+          "price": 2059,
           "url": "https://www.apple.com/ca/shop/buy-ipad/ipad-air"
         },
         {
@@ -6754,7 +6768,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 21299,
+          "price": 25299,
           "url": "https://www.apple.com/mx/shop/buy-ipad/ipad-air"
         },
         {
@@ -6768,7 +6782,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 8999,
+          "price": 10199,
           "url": "https://www.apple.com/br/shop/buy-ipad/ipad-air"
         },
         {
@@ -6782,7 +6796,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1299990,
+          "price": 1479990,
           "url": "https://www.apple.com/cl/shop/buy-ipad/ipad-air"
         },
         {
@@ -6796,7 +6810,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1569,
+          "price": 1109,
           "url": "https://www.apple.com/at/shop/buy-ipad/ipad-air"
         },
         {
@@ -6824,7 +6838,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 29990,
+          "price": 34490,
           "url": "https://www.apple.com/cz/shop/buy-ipad/ipad-air"
         },
         {
@@ -6838,7 +6852,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 11299,
+          "price": 9799,
           "url": "https://www.apple.com/dk/shop/buy-ipad/ipad-air"
         },
         {
@@ -6852,7 +6866,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1779,
+          "price": 1399,
           "url": "https://www.apple.com/fi/shop/buy-ipad/ipad-air"
         },
         {
@@ -6880,7 +6894,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1559,
+          "price": 969,
           "url": "https://www.apple.com/de/shop/buy-ipad/ipad-air"
         },
         {
@@ -6894,7 +6908,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 349990,
+          "price": 474990,
           "url": "https://www.apple.com/hu/shop/buy-ipad/ipad-air"
         },
         {
@@ -6908,7 +6922,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1139,
+          "price": 1009,
           "url": "https://www.apple.com/ie/shop/buy-ipad/ipad-air"
         },
         {
@@ -6922,7 +6936,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 959,
+          "price": 1369,
           "url": "https://www.apple.com/it/shop/buy-ipad/ipad-air"
         },
         {
@@ -6950,7 +6964,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1379,
+          "price": 1209,
           "url": "https://www.apple.com/nl/shop/buy-ipad/ipad-air"
         },
         {
@@ -6964,7 +6978,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 9990,
+          "price": 12090,
           "url": "https://www.apple.com/no/shop/buy-ipad/ipad-air"
         },
         {
@@ -6978,7 +6992,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 4199,
+          "price": 6699,
           "url": "https://www.apple.com/pl/shop/buy-ipad/ipad-air"
         },
         {
@@ -7006,7 +7020,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 969,
+          "price": 799,
           "url": "https://www.apple.com/es/shop/buy-ipad/ipad-air"
         },
         {
@@ -7020,7 +7034,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 13995,
+          "price": 11895,
           "url": "https://www.apple.com/se/shop/buy-ipad/ipad-air"
         },
         {
@@ -7034,7 +7048,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 879,
+          "price": 1179,
           "url": "https://www.apple.com/ch-fr/shop/buy-ipad/ipad-air"
         },
         {
@@ -7062,7 +7076,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 749,
+          "price": 999,
           "url": "https://www.apple.com/uk/shop/buy-ipad/ipad-air"
         },
         {
@@ -7076,7 +7090,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 256800,
+          "price": 129800,
           "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air"
         },
         {
@@ -7090,7 +7104,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1419000,
+          "price": 1669000,
           "url": "https://www.apple.com/kr/shop/buy-ipad/ipad-air"
         },
         {
@@ -7132,7 +7146,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 35400,
+          "price": 50900,
           "url": "https://www.apple.com/tw/shop/buy-ipad/ipad-air"
         },
         {
@@ -7146,7 +7160,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1379,
+          "price": 1599,
           "url": "https://www.apple.com/sg/shop/buy-ipad/ipad-air"
         },
         {
@@ -7160,7 +7174,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 4199,
+          "price": 4599,
           "url": "https://www.apple.com/my/shop/buy-ipad/ipad-air"
         },
         {
@@ -7174,7 +7188,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 44900,
+          "price": 27900,
           "url": "https://www.apple.com/th/shop/buy-ipad/ipad-air"
         },
         {
@@ -7202,7 +7216,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 1449,
+          "price": 1249,
           "url": "https://www.apple.com/au/shop/buy-ipad/ipad-air"
         },
         {
@@ -7216,7 +7230,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 2099,
+          "price": 1499,
           "url": "https://www.apple.com/nz/shop/buy-ipad/ipad-air"
         },
         {
@@ -7230,7 +7244,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 64990,
+          "price": 106990,
           "url": "https://www.apple.com/ph/shop/buy-ipad/ipad-air"
         },
         {
@@ -7258,7 +7272,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 5399,
+          "price": 5999,
           "url": "https://www.apple.com/ae/shop/buy-ipad/ipad-air"
         },
         {
@@ -7272,7 +7286,7 @@
           "product": "iPad Air",
           "category": "iPad",
           "type": "électronique",
-          "price": 4849,
+          "price": 3499,
           "url": "https://www.apple.com/sa/shop/buy-ipad/ipad-air"
         }
       ],
@@ -7294,7 +7308,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 749,
+          "price": 549,
           "url": "https://www.apple.com/us/shop/buy-ipad/ipad"
         },
         {
@@ -7322,7 +7336,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 22499,
+          "price": 13499,
           "url": "https://www.apple.com/mx/shop/buy-ipad/ipad"
         },
         {
@@ -7336,7 +7350,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 9099,
+          "price": 11099,
           "url": "https://www.apple.com/br/shop/buy-ipad/ipad"
         },
         {
@@ -7350,7 +7364,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 874990,
+          "price": 934990,
           "url": "https://www.apple.com/cl/shop/buy-ipad/ipad"
         },
         {
@@ -7364,7 +7378,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 669,
+          "price": 879,
           "url": "https://www.apple.com/at/shop/buy-ipad/ipad"
         },
         {
@@ -7392,7 +7406,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 20990,
+          "price": 25490,
           "url": "https://www.apple.com/cz/shop/buy-ipad/ipad"
         },
         {
@@ -7406,7 +7420,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 3999,
+          "price": 6999,
           "url": "https://www.apple.com/dk/shop/buy-ipad/ipad"
         },
         {
@@ -7448,7 +7462,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 879,
+          "price": 499,
           "url": "https://www.apple.com/de/shop/buy-ipad/ipad"
         },
         {
@@ -7462,7 +7476,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 209990,
+          "price": 284990,
           "url": "https://www.apple.com/hu/shop/buy-ipad/ipad"
         },
         {
@@ -7476,7 +7490,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 689,
+          "price": 519,
           "url": "https://www.apple.com/ie/shop/buy-ipad/ipad"
         },
         {
@@ -7490,7 +7504,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 509,
+          "price": 889,
           "url": "https://www.apple.com/it/shop/buy-ipad/ipad"
         },
         {
@@ -7518,7 +7532,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 639,
+          "price": 889,
           "url": "https://www.apple.com/nl/shop/buy-ipad/ipad"
         },
         {
@@ -7532,7 +7546,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 9490,
+          "price": 10190,
           "url": "https://www.apple.com/no/shop/buy-ipad/ipad"
         },
         {
@@ -7546,7 +7560,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 2999,
+          "price": 2699,
           "url": "https://www.apple.com/pl/shop/buy-ipad/ipad"
         },
         {
@@ -7560,7 +7574,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 689,
+          "price": 819,
           "url": "https://www.apple.com/pt/shop/buy-ipad/ipad"
         },
         {
@@ -7588,7 +7602,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 5795,
+          "price": 9295,
           "url": "https://www.apple.com/se/shop/buy-ipad/ipad"
         },
         {
@@ -7602,7 +7616,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 729,
+          "price": 429,
           "url": "https://www.apple.com/ch-fr/shop/buy-ipad/ipad"
         },
         {
@@ -7630,7 +7644,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 579,
+          "price": 679,
           "url": "https://www.apple.com/uk/shop/buy-ipad/ipad"
         },
         {
@@ -7644,7 +7658,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 126800,
+          "price": 116800,
           "url": "https://www.apple.com/jp/shop/buy-ipad/ipad"
         },
         {
@@ -7658,7 +7672,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 919000,
+          "price": 999000,
           "url": "https://www.apple.com/kr/shop/buy-ipad/ipad"
         },
         {
@@ -7686,7 +7700,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 5599,
+          "price": 7199,
           "url": "https://www.apple.com/hk/shop/buy-ipad/ipad"
         },
         {
@@ -7714,7 +7728,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 1029,
+          "price": 799,
           "url": "https://www.apple.com/sg/shop/buy-ipad/ipad"
         },
         {
@@ -7728,7 +7742,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 2049,
+          "price": 3149,
           "url": "https://www.apple.com/my/shop/buy-ipad/ipad"
         },
         {
@@ -7742,7 +7756,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 27900,
+          "price": 20900,
           "url": "https://www.apple.com/th/shop/buy-ipad/ipad"
         },
         {
@@ -7770,7 +7784,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 749,
+          "price": 1299,
           "url": "https://www.apple.com/au/shop/buy-ipad/ipad"
         },
         {
@@ -7784,7 +7798,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 1499,
+          "price": 1399,
           "url": "https://www.apple.com/nz/shop/buy-ipad/ipad"
         },
         {
@@ -7798,7 +7812,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 42990,
+          "price": 49990,
           "url": "https://www.apple.com/ph/shop/buy-ipad/ipad"
         },
         {
@@ -7826,7 +7840,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 1899,
+          "price": 2499,
           "url": "https://www.apple.com/ae/shop/buy-ipad/ipad"
         },
         {
@@ -7840,7 +7854,7 @@
           "product": "iPad",
           "category": "iPad",
           "type": "électronique",
-          "price": 2099,
+          "price": 3449,
           "url": "https://www.apple.com/sa/shop/buy-ipad/ipad"
         }
       ],
@@ -7862,7 +7876,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 999,
+          "price": 899,
           "url": "https://www.apple.com/us/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7876,7 +7890,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1149,
+          "price": 1729,
           "url": "https://www.apple.com/ca/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7890,7 +7904,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 28499,
+          "price": 24499,
           "url": "https://www.apple.com/mx/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7904,7 +7918,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 12899,
+          "price": 13299,
           "url": "https://www.apple.com/br/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7918,7 +7932,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1319990,
+          "price": 899990,
           "url": "https://www.apple.com/cl/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7932,7 +7946,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1179,
+          "price": 1009,
           "url": "https://www.apple.com/at/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7960,7 +7974,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 24490,
+          "price": 28990,
           "url": "https://www.apple.com/cz/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7974,7 +7988,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 9799,
+          "price": 9299,
           "url": "https://www.apple.com/dk/shop/buy-ipad/ipad-mini"
         },
         {
@@ -7988,7 +8002,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1079,
+          "price": 1329,
           "url": "https://www.apple.com/fi/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8016,7 +8030,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 919,
+          "price": 749,
           "url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8030,7 +8044,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 429990,
+          "price": 604990,
           "url": "https://www.apple.com/hu/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8044,7 +8058,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1029,
+          "price": 939,
           "url": "https://www.apple.com/ie/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8058,7 +8072,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 929,
+          "price": 1019,
           "url": "https://www.apple.com/it/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8100,7 +8114,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 12490,
+          "price": 8990,
           "url": "https://www.apple.com/no/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8128,7 +8142,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1149,
+          "price": 1319,
           "url": "https://www.apple.com/pt/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8142,7 +8156,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1129,
+          "price": 1179,
           "url": "https://www.apple.com/es/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8170,7 +8184,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1229,
+          "price": 879,
           "url": "https://www.apple.com/ch-fr/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8198,7 +8212,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1049,
+          "price": 699,
           "url": "https://www.apple.com/uk/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8212,7 +8226,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 119800,
+          "price": 196800,
           "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8254,7 +8268,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 8499,
+          "price": 9699,
           "url": "https://www.apple.com/hk/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8268,7 +8282,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 31400,
+          "price": 22900,
           "url": "https://www.apple.com/tw/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8282,7 +8296,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 1529,
+          "price": 1679,
           "url": "https://www.apple.com/sg/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8310,7 +8324,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 30900,
+          "price": 41900,
           "url": "https://www.apple.com/th/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8352,7 +8366,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 2499,
+          "price": 1899,
           "url": "https://www.apple.com/nz/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8366,7 +8380,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 63990,
+          "price": 70990,
           "url": "https://www.apple.com/ph/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8394,7 +8408,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 4049,
+          "price": 3449,
           "url": "https://www.apple.com/ae/shop/buy-ipad/ipad-mini"
         },
         {
@@ -8408,7 +8422,7 @@
           "product": "iPad mini",
           "category": "iPad",
           "type": "électronique",
-          "price": 5099,
+          "price": 4899,
           "url": "https://www.apple.com/sa/shop/buy-ipad/ipad-mini"
         }
       ],
@@ -10078,7 +10092,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 149,
+          "price": 169,
           "url": "https://www.apple.com/at/shop/buy-airpods/airpods-4"
         },
         {
@@ -10106,7 +10120,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 3990,
+          "price": 3490,
           "url": "https://www.apple.com/cz/shop/buy-airpods/airpods-4"
         },
         {
@@ -10120,7 +10134,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 1299,
+          "price": 1099,
           "url": "https://www.apple.com/dk/shop/buy-airpods/airpods-4"
         },
         {
@@ -10218,7 +10232,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 163.41,
+          "price": 144.07,
           "url": "https://www.apple.com/lu/shop/buy-airpods/airpods-4"
         },
         {
@@ -10232,7 +10246,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 169,
+          "price": 149,
           "url": "https://www.apple.com/nl/shop/buy-airpods/airpods-4"
         },
         {
@@ -10246,7 +10260,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 1690,
+          "price": 1990,
           "url": "https://www.apple.com/no/shop/buy-airpods/airpods-4"
         },
         {
@@ -10288,7 +10302,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 149,
+          "price": 169,
           "url": "https://www.apple.com/es/shop/buy-airpods/airpods-4"
         },
         {
@@ -10302,7 +10316,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 1895,
+          "price": 1695,
           "url": "https://www.apple.com/se/shop/buy-airpods/airpods-4"
         },
         {
@@ -10344,7 +10358,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 139,
+          "price": 119,
           "url": "https://www.apple.com/uk/shop/buy-airpods/airpods-4"
         },
         {
@@ -10400,7 +10414,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 1099,
+          "price": 1249,
           "url": "https://www.apple.com/hk/shop/buy-airpods/airpods-4"
         },
         {
@@ -10414,7 +10428,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 5190,
+          "price": 4490,
           "url": "https://www.apple.com/tw/shop/buy-airpods/airpods-4"
         },
         {
@@ -10442,7 +10456,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 599,
+          "price": 699,
           "url": "https://www.apple.com/my/shop/buy-airpods/airpods-4"
         },
         {
@@ -10470,7 +10484,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 17900,
+          "price": 14900,
           "url": "https://www.apple.com/in/shop/buy-airpods/airpods-4"
         },
         {
@@ -10498,7 +10512,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 299,
+          "price": 249,
           "url": "https://www.apple.com/nz/shop/buy-airpods/airpods-4"
         },
         {
@@ -10512,7 +10526,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 9490,
+          "price": 10990,
           "url": "https://www.apple.com/ph/shop/buy-airpods/airpods-4"
         },
         {
@@ -10526,7 +10540,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 3799000,
+          "price": 4299000,
           "url": "https://www.apple.com/vn/shop/buy-airpods/airpods-4"
         },
         {
@@ -10540,7 +10554,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 549,
+          "price": 629,
           "url": "https://www.apple.com/ae/shop/buy-airpods/airpods-4"
         },
         {
@@ -10554,7 +10568,7 @@
           "product": "AirPods 4",
           "category": "AirPods",
           "type": "électronique",
-          "price": 699,
+          "price": 599,
           "url": "https://www.apple.com/sa/shop/buy-airpods/airpods-4"
         }
       ],
@@ -13150,7 +13164,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 99,
+          "price": 29,
           "url": "https://www.apple.com/us/shop/buy-airtag/airtag"
         },
         {
@@ -13164,7 +13178,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 39,
+          "price": 129,
           "url": "https://www.apple.com/ca/shop/buy-airtag/airtag"
         },
         {
@@ -13178,7 +13192,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 599,
+          "price": 1999,
           "url": "https://www.apple.com/mx/shop/buy-airtag/airtag"
         },
         {
@@ -13192,7 +13206,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 369,
+          "price": 1249,
           "url": "https://www.apple.com/br/shop/buy-airtag/airtag"
         },
         {
@@ -13220,7 +13234,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 35,
+          "price": 119,
           "url": "https://www.apple.com/at/shop/buy-airtag/airtag"
         },
         {
@@ -13276,7 +13290,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 35,
+          "price": 119,
           "url": "https://www.apple.com/fi/shop/buy-airtag/airtag"
         },
         {
@@ -13290,7 +13304,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 35,
+          "price": 119,
           "url": "https://www.apple.com/fr/shop/buy-airtag/airtag"
         },
         {
@@ -13318,7 +13332,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 46990,
+          "price": 13990,
           "url": "https://www.apple.com/hu/shop/buy-airtag/airtag"
         },
         {
@@ -13332,7 +13346,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 119,
+          "price": 35,
           "url": "https://www.apple.com/ie/shop/buy-airtag/airtag"
         },
         {
@@ -13360,7 +13374,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 33.85,
+          "price": 115.07,
           "url": "https://www.apple.com/lu/shop/buy-airtag/airtag"
         },
         {
@@ -13388,7 +13402,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 399,
+          "price": 1349,
           "url": "https://www.apple.com/no/shop/buy-airtag/airtag"
         },
         {
@@ -13416,7 +13430,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 35,
+          "price": 119,
           "url": "https://www.apple.com/pt/shop/buy-airtag/airtag"
         },
         {
@@ -13542,7 +13556,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 249,
+          "price": 849,
           "url": "https://www.apple.com/hk/shop/buy-airtag/airtag"
         },
         {
@@ -13598,7 +13612,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 3290,
+          "price": 990,
           "url": "https://www.apple.com/th/shop/buy-airtag/airtag"
         },
         {
@@ -13612,7 +13626,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 3790,
+          "price": 12900,
           "url": "https://www.apple.com/in/shop/buy-airtag/airtag"
         },
         {
@@ -13626,7 +13640,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 165,
+          "price": 49,
           "url": "https://www.apple.com/au/shop/buy-airtag/airtag"
         },
         {
@@ -13640,7 +13654,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 59,
+          "price": 199,
           "url": "https://www.apple.com/nz/shop/buy-airtag/airtag"
         },
         {
@@ -13682,7 +13696,7 @@
           "product": "AirTag",
           "category": "AirTag",
           "type": "électronique",
-          "price": 129,
+          "price": 439,
           "url": "https://www.apple.com/ae/shop/buy-airtag/airtag"
         },
         {
